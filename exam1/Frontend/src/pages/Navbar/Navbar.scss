@@ -1,0 +1,50 @@
+*{
+    margin: 0 auto;
+}
+
+.mainNav{
+   
+    .nav1{
+        display: flex;
+        height: 70px;
+        align-items: center;
+        background-color: #f8f9fa;
+        .icons{
+            display: flex;
+            .icon{
+                font-size: 30px;
+            }
+        }
+        .left{
+            font-size: 17px;
+            gap: 17px;
+            display: flex;
+            
+            .phone{
+                display: flex;
+            }
+            .gmail{
+                display: flex;
+            }
+        }
+    }
+    .nav2{
+        
+        display: flex;
+        height: 80px;
+        align-items: center;
+        .title{
+            font-size: 50px;
+        }
+        .list{
+            display: flex;
+            gap: 15px;
+            :hover{
+                color: orange;
+            }
+            cursor: pointer;
+            
+        }
+
+    }
+}
